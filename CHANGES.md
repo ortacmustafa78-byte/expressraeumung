@@ -75,8 +75,8 @@
 
 ### 5. 📞 Telefonnummer Update (KOMPLETT)
 
-**Alt:** `+49 1522 8457333`  
-**Neu:** `+49 01628565995`
+**Alt:** `+4901628565995 `` 
+**Neu:** +4915228457333``
 
 **Aktualisiert an folgenden Stellen:**
 - ✅ `script.js` - COMPANY Config Objekt
@@ -175,7 +175,7 @@
 ### `index.html`
 ```diff
 + Email: u.yavuz@ -> info@expressraeumung.de (alle Vorkommen)
-+ Telefon: +49 1522 8457333 -> +49 01628565995 (alle Vorkommen)
++ Telefon: +49 1522 8457333 -> +49 1522 8457333 (alle Vorkommen)
 + WhatsApp Links: Neue Nummer in allen Links
 + Service Card: Neue "Umzüge" Service hinzugefügt
 + Meta Description: "Umzüge" hinzugefügt
@@ -184,7 +184,7 @@
 ### `script.js`
 ```diff
 + COMPANY.email: info@expressraeumung.de
-+ COMPANY.phone: +49 01628565995
++ COMPANY.phone: +49  01522 8457333
 + FAQ: handleFAQClick mit Safari Fixes
 + Navigation: Verbesserte Menu Close Logic
 + Email Links: Auch Phone Links werden aktualisiert
@@ -204,13 +204,13 @@
 
 ### `impressum.html`
 ```diff
-+ Telefon: +49 1522 8457333 -> +49 01628565995
++ Telefon: +49 1522 8457333 -> +49 01522 8457333
 + Email: u.yavuz@ -> info@expressraeumung.de
 ```
 
 ### `datenschutz.html`
 ```diff
-+ Telefon: +49 1522 8457333 -> +49 01628565995
++ Telefon: +49 1522 8457333 -> +49 01522 8457333
 + Email: u.yavuz@ -> info@expressraeumung.de
 ```
 
@@ -243,7 +243,7 @@
 
 ### Kontakt-Verifizierung
 - ✅ E-Mails: Alle auf info@expressraeumung.de
-- ✅ Telefon: Alle auf +49 01628565995
+- ✅ Telefon: Alle auf +4901522 8457333
 - ✅ WhatsApp: Funktioniert mit neuer Nummer
 - ✅ Tel Links: Arbeiten auf Mobile
 
@@ -292,7 +292,7 @@ Alle Kontaktdaten sind zentral in `script.js` konfiguriert:
 ```javascript
 const COMPANY = {
     email: "info@expressraeumung.de",
-    phone: "+49 01628565995"
+    phone: "+49 01522 8457333"
 };
 ```
 
