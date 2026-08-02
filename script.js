@@ -109,8 +109,7 @@ function initializeFAQ() {
         }
 
         // Use mousedown and touchend for better Safari compatibility
-        question.addEventListener('click', handleFAQClick, false);
-        question.addEventListener('touchend', handleFAQClick, false);
+        question.addEventListener('pointerup', handleFAQClick, false);
         
         function handleFAQClick(e) {
             e.preventDefault();
