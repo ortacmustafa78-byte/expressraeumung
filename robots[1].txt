@@ -1,0 +1,17 @@
+# robots.txt for ExpressRäumung
+# Generated: 2024
+# Allows all search engine crawlers to index the website
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*.pdf$
+
+# Sitemap location
+Sitemap: https://expressraeumung.de/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# Request rate (requests per second)
+Request-rate: 10/1s
