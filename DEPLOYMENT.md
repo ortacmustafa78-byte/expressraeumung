@@ -306,4 +306,4 @@ Bei Problemen:
 
 **Glückwunsch! Ihre Website ist live! 🎉**
 
-Bei Fragen: u.yavuz@expressraeumungneu.vercel.app
+Bei Fragen: info@expressraeumung.de
