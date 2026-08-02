@@ -3,7 +3,7 @@
    ============================================ */
 const COMPANY = {
     email: "info@expressraeumung.de",
-    phone: "+49 1522 8457333"
+    phone: "+4915228457333"
 };
 
 const FORM_ENDPOINT = ""; // Add your endpoint here (Resend, Formspree, etc.)
