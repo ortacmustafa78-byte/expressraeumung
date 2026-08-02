@@ -1,5 +1,5 @@
 {
-  "name": "expressraeumung",
+  "name": "expressraeumung.de",
   "version": "1.0.0",
   "description": "Premium Website für ExpressRäumung - Professionelle Entrümpelung zum Festpreis",
   "main": "index.html",
@@ -20,7 +20,7 @@
   "homepage": "https://expressraeumung.de",
   "repository": {
     "type": "git",
-    "url": "https://github.com/expressraeumung/website.git"
+    "url": "https://github.com/expressraeumung.de/website.git"
   },
   "devDependencies": {}
 }
