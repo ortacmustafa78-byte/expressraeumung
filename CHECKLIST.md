@@ -44,7 +44,7 @@ Nutzen Sie diese Checkliste um sicherzustellen, dass alles für den Launch berei
 - [ ] **Deine Angaben**:
   - [ ] Telefonnummer: +49 1522 8457333
   - [ ] WhatsApp: https://wa.me/4915228457333
-  - [ ] Email: u.yavuz@expressraeumungneu.vercel.app
+  - [ ] Email: info@expressraeumung.de
 - [ ] **Hero Titel**: "Professionelle Entrümpelung zum Festpreis"
 - [ ] **Vorteile**: 6 Vorteile sind korrekt
 - [ ] **Leistungen**: 8 Services sind aufgelistet
@@ -134,7 +134,7 @@ Nutzen Sie diese Checkliste um sicherzustellen, dass alles für den Launch berei
 
 ## 📧 Email & Kontakt
 
-- [ ] **Email Adresse**: u.yavuz@expressraeumungneu.vercel.app überall korrekt
+- [ ] **Email Adresse**:info@expressraeumung.de überall korrekt
 - [ ] **Email Link**: Öffnet E-Mail Client
 - [ ] **Telefon Link**: Ruft an (tel: Link)
 - [ ] **WhatsApp Link**: Öffnet WhatsApp mit Nachricht
@@ -274,5 +274,5 @@ Ihre Website ist bereit für den Launch!
 
 **Weitere Fragen?** Kontaktieren Sie den Support:
 - 📞 +49 1522 8457333
-- 📧 u.yavuz@expressraeumungneu.vercel.app
+- 📧 info@expressraeumung.de
 - 💬 WhatsApp: https://wa.me/4915228457333
