@@ -145,76 +145,7 @@ function toggleFAQ(element) {
     faqItem.classList.toggle('active');
 }
 
-/* ============================================
-   CONTACT FORM
-   ============================================ */
-function initializeContactForm() {
-    const contactForm = document.getElementById('contactForm');
 
-    if (!contactForm) return;
-
-    contactForm.addEventListener('submit', async function(e) {
-        e.preventDefault();
-
-        const formData = {
-            name: document.getElementById('name').value,
-            phone: document.getElementById('phone').value,
-            email: document.getElementById('email').value,
-            location: document.getElementById('location').value,
-            service: document.getElementById('service').value,
-            message: document.getElementById('message').value
-        };
-
-        const messageElement = document.getElementById('formMessage');
-
-        try {
-            // If endpoint is configured, send data
-            if (FORM_ENDPOINT && FORM_ENDPOINT.trim() !== '') {
-                const response = await fetch(FORM_ENDPOINT, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(formData)
-                });
-
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-            }
-
-            // Show success message
-            showFormMessage(
-                'Danke! Ihre Anfrage wurde erfolgreich versendet. Wir melden uns bald bei Ihnen.',
-                'success',
-                messageElement
-            );
-
-            // Reset form
-            contactForm.reset();
-
-        } catch (error) {
-            console.error('Form submission error:', error);
-            
-            // Show error only if endpoint is configured
-            if (FORM_ENDPOINT && FORM_ENDPOINT.trim() !== '') {
-                showFormMessage(
-                    'Es gab einen Fehler beim Senden. Bitte versuchen Sie es später erneut.',
-                    'error',
-                    messageElement
-                );
-            } else {
-                // If no endpoint, show success anyway
-                showFormMessage(
-                    'Danke! Ihre Anfrage wurde erfolgreich versendet. Wir melden uns bald bei Ihnen.',
-                    'success',
-                    messageElement
-                );
-                contactForm.reset();
-            }
-        }
-    });
-}
 
 function showFormMessage(message, type, element) {
     element.textContent = message;
