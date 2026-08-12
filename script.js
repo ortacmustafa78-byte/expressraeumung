@@ -270,34 +270,7 @@ function prefetchDNS() {
     });
 }
 
-prefetchDNS();
 
-/* ============================================
-   CONTACT BUTTON LISTENERS
-   ============================================ */
-
-// Add click tracking (optional)
-document.querySelectorAll('a[href^="tel:"]').forEach(link => {
-    link.addEventListener('click', function(e) {
-        // Track phone click if analytics is available
-        if (window.gtag) {
-            window.gtag('event', 'phone_click', {
-                'phone_number': this.href.replace('tel:', '')
-            });
-        }
-    });
-});
-
-document.querySelectorAll('a[href^="https://wa.me"]').forEach(link => {
-    link.addEventListener('click', function(e) {
-        // Track WhatsApp click if analytics is available
-        if (window.gtag) {
-            window.gtag('event', 'whatsapp_click', {
-                'timestamp': new Date().getTime()
-            });
-        }
-    });
-});
 
 /* ============================================
    ACCESSIBILITY
