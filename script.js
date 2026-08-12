@@ -14,7 +14,6 @@ const FORM_ENDPOINT = ""; // Add your endpoint here (Resend, Formspree, etc.)
 document.addEventListener('DOMContentLoaded', function() {
     initializeNavigation();
     initializeFAQ();
-    initializeContactForm();
     updateEmailLinks();
     setupIntersectionObserver();
 });
