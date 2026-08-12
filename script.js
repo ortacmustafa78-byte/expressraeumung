@@ -415,7 +415,7 @@ document.addEventListener('keydown', function(e) {
         const faqItems = document.querySelectorAll('.faq-item.active');
         // You can add additional escape key handling here
     }
-});
+});f
 
 /* ============================================
    CONSOLE GREETING
