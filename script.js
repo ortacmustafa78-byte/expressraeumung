@@ -147,18 +147,8 @@ function toggleFAQ(element) {
 
 
 
-function showFormMessage(message, type, element) {
-    element.textContent = message;
-    element.className = `form-message ${type}`;
-    element.style.display = 'block';
 
-    // Auto-hide success message after 5 seconds
-    if (type === 'success') {
-        setTimeout(() => {
-            element.style.display = 'none';
-        }, 5000);
-    }
-}
+   
 
 /* ============================================
    EMAIL & PHONE LINKS UPDATE
